@@ -1,14 +1,26 @@
 import "./App.css";
-import Header from "./components/header/Header";
-import Navbar from "./components/navbar/Navbar";
+import {
+  Download,
+  Faq,
+  Features,
+  Footer,
+  Header,
+  Navbar,
+  Subscribe,
+} from "./components";
 
 function App() {
   return (
     <main>
       <header className="header-bg">
-        <Navbar></Navbar>
-        <Header></Header>
+        <Navbar />
+        <Header />
       </header>
+      <Features></Features>
+      <Download />
+      <Subscribe />
+      <Faq />
+      <Footer></Footer>
     </main>
   );
 }
